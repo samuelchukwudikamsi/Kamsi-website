@@ -1,0 +1,43 @@
+    .image1{
+      width:170px;
+      height:140px;
+      object-fit:cover;
+      background-color:blue;
+    }
+    
+    .image2{
+      width:30px;
+      border-radius:150px;
+      height:30px;
+      vertical-align: middle;
+      margin-top:1px;
+      
+    }
+    .text1{
+      display: inline-block;
+      font-size:13px;
+      width:130px;
+      margin-top:1px;
+      margin-left:4px;
+    }
+    .diva{
+      display:flex;
+      column-gap:5px;
+    }
+    .div1{
+      width:180px;
+      display: inline-block;
+      margin-right:12px;
+      margin-bottom:12px;
+    }
+    .div2{
+      display: inline-block;
+      margin-top:1px;
+    }
+    .div3{
+      display: inline-block;
+    }
+    .subtitle{
+      width:110px;
+      color:brown;
+    }

@@ -1,0 +1,115 @@
+  .div{
+    padding-top:120px;
+    width:900px;
+    height:2000px;
+    background-color: rgba(249, 243, 243, 1);
+    padding-left: 110px;
+  }
+  .header{
+    display:flex;
+    align-items: center;
+    column-gap:30px;
+    position: fixed;
+    background-color:white;
+    top: 0px;
+    height:100px;
+    left:0px;
+    right:0px;
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(249, 249, 249, 1);
+  
+  }
+  .start{
+    display:flex;
+    align-items: center;
+  }
+  .hamburger-menue{
+    width:50px;
+    height:40px;
+    margin-left: 20px;
+    margin-right:20px;
+  }
+  .youtube-logo{
+    width:130px;
+    height:40px;
+    margin-top:1px;
+  }
+  .center{
+    display:flex;
+    align-items: Start;
+    margin-left: 80px;
+  }
+  .box{
+    display: inline-block;
+    flex:1;
+    height:41.5px;
+    border-color:grey;
+    border-style:solid;
+    border-width:1px;
+    border-color:grey;
+    border-radius:3px;
+  }
+  .box::placeholder{
+    font-weight:bold;
+    font-size:20px;
+    color: grey;
+  }
+  .search-button{
+    width:60px;
+    height:45px;
+    padding-left:0px;
+    margin-left: -5px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+  }
+  .search{
+    width:38px;
+    height:35px;
+   
+  }
+  .voice-search-button{
+    height:45px;
+    width :45px;
+    padding-left:5px;
+    border-radius:30px;
+    border-style: solid;
+    border-width: 0.4px;
+    border-color: lightgrey;
+    margin-left: 10px;
+    background-color: white;
+  }
+  .voice-search{
+    width:27px;
+    height:25px;
+    border-radius:20px;
+  }
+  .end{
+    display:flex;
+    align-items: center;
+  }
+  .video-icon{
+    width:74px;
+    height:58px;
+    margin-top:3pxpx;
+  }
+  .icon{
+    width:40px;
+    height:35px;
+    margin-top:0px;
+    margin-left:10px;
+  }
+  .bell-icon{
+    width:33px;
+    height:34px;
+    margin-left: 26px;
+  }
+  .image{
+    width:38px;
+    height:41px;
+    border-radius:20px;
+    object-fit:cover;
+    margin-left:30px;
+  }

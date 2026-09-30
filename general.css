@@ -1,0 +1,65 @@
+.maindiv{
+  width:800px;
+}
+.prime{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap:5px;
+  align-items: top;
+ }
+ .side-bar{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 100px;
+  background-color: white;
+  width:90px;
+  border-left-width:2px;
+  border-left-style: solid;
+  border-left-color: rgba(249, 249, 249, 1);
+ }
+ .pic1{
+   width:26px;
+   height:30px;
+   display: block;
+   margin-top: 10px;
+   margin-left: 25px;
+ }
+ .pic2{
+   width:30px;
+   height:30px;
+   display: block;
+   margin-top: 20px;
+   margin-left:23px;
+ }
+ .pic4{
+   width:37px;
+   height:30px;
+   display: block;
+   margin-top: 20px;
+   margin-left:20px;
+ }
+ .original{
+   font-weight: solid;
+   font-size:12px;
+   margin-top: 7px;
+   margin-left: 16px; 
+ }
+ .subscription{
+   font-weight: solid;
+   font-size:12px;
+   margin-top: 10px;
+   margin-left: 5px;
+ }
+ .home{
+   font-weight: solid;
+   font-size:14px;
+   margin-top: 5px;
+   margin-left: 20px;
+ }
+ .explore{
+  font-weight: solid;
+   font-size:13px;
+   margin-top: 6px;
+   margin-left: 15px;
+ }
